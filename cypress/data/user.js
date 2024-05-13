@@ -16,3 +16,19 @@ export const INVALID_USER={
     correo: 'maximilianocarsi@gmail.com',
     contra: '123',
 }
+
+// Estos datos de prueba son para testear el inicio de sesion
+export const VALID_USER_LOGIN = {
+    usuario: 'carsimax98',
+    contra: 'C02101998m'
+}
+
+export const INVALID_USER_LOGIN = {
+    usuario: 'carsi98',
+    contra: 'C0210198m'
+}
+
+export const INVALID_PASSWORD_LOGIN = {
+    usuario: 'carsimax98',
+    contra: 'hola1234'
+}

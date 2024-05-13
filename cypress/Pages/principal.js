@@ -11,6 +11,12 @@ class principal{
         this.contra_txt= '#Contra';
         this.contraV_txt= '#ContraV';
         this.registrarse_btn= '.modal.show > .modal-dialog > .modal-content > .modal-body > form > :nth-child(16) > :nth-child(2) > .btn';
+        //Elementos para el formulario del login
+        this.login_btn= '#navbarSupportedContent > ul > li:nth-child(3) > a';
+        this.user_login_txt= '#email';
+        this.pass_login_txt= '#contra';
+        this.submit_login_btn= '#botonenviar';
+        this.logout_btn= '#logout';
     }
     //Metodos de la pagina principal
     register(nombre,apaterno,amaterno,usuario,correo,contra){
